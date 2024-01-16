@@ -41,10 +41,6 @@ public class A_HelloJava {
 //		6. 줄 복사 : ctrl + alt + 방향키
 //		7. 들여쓰기 단축키 : tap
 //		8. 반대로 들여쓰기 단축기 : shift + tap
-//		9. 클래스 파일명 변경 : f2
-//		   - 파일 탐색기에서 임의로 변경하는 경우, 파일 내의 class명이 변경되지 않아 오류
-		
-		
 		
 //		자바 프로그램 이해
 //		글꼴 크기 설정 : Window - Preference - 
