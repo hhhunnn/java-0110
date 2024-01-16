@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;d_Chapter03.F_Array06&apos; to &apos;F_ArrayList01&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_bt1228&apos;&#x0D;&#x0A;- Original element: &apos;d_Chapter03.F_Array06&apos;&#x0D;&#x0A;- Renamed element: &apos;d_Chapter03.F_ArrayList01&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;F_Array06&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;d_Chapter03{F_Array06.java[F_Array06" matchStrategy="1" name="F_ArrayList01" qualified="false" references="true" similarDeclarations="false" stamp="1705379281345" textual="false" version="1.0"/>
+</session>
