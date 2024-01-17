@@ -17,6 +17,7 @@ class GameCharacter {
 		this.level = level;
 		this.strength = strength;
 	}
+	
 }
 public class Object05 {
 
@@ -26,8 +27,6 @@ public class Object05 {
 		GameCharacter myGameCharacter = new GameCharacter("Warrior", 10, 100);
 		// 캐릭터 정보 출력
 		myGameCharacter.displayInfo();
-		
-
 	}
 
 }
