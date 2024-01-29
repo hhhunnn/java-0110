@@ -1,13 +1,13 @@
 package d_Chapter03;
 
-//배열
+// 배열
 
-//1. 배열이란?
-//: 같은 타입의 여러 변수를 하나의 집합으로 다루는 것
-//: 같은 타입의 데이터를 연속적으로 저장하고 쉽게 관리 가능
+// 1. 배열이란?
+// : 같은 타입의 여러 변수를 하나의 집합으로 다루는 것
+// : 같은 타입의 데이터를 연속적으로 저장하고 쉽게 관리 가능
 
-//'같은 타입'의 변수가 나열된 형태
-//: 배열은 '생성'하여 사용 (!= 변수는 '선언'하여 사용)
+// '같은 타입'의 변수가 나열된 형태
+// : 배열은 '생성'하여 사용 (!= 변수는 '선언'하여 사용)
 public class A_Array01 {
 
 	public static void main(String[] args) {
@@ -45,7 +45,7 @@ public class A_Array01 {
 //		
 //		'인덱스'
 //		: 배열의 각 요소는 인덱스라는 고유한 번호로 식별
-//		: 0부터 시작해서 배열의 크기보다 1이 작다
+//		: 0부터 시작하기 때문에 배열의 크기보다 1이 작다
 //		ex) 길이가 7인 배열의 인덱스는 0부터 6까지
 		
 		System.out.println(array[0]);
@@ -75,7 +75,7 @@ public class A_Array01 {
 
 //		4. 배열의 길이(크기)
 //		: .length 속성으로 확인 가능
-//		: 마지막 요소의 인덱스는 배열 크기 - 1
+//		: 마지막 요소의 인덱스는 배열 크기 -1
 //		: 배열의 길이는 고정, 한 번 생성된 배열의 크기는 변경 불가
 		int[] myArray = {1, 4, 2, 6, 4, 7, 4, 7, 1, 2, 5, 3};
 //		배열명.length
@@ -105,8 +105,8 @@ public class A_Array01 {
 //		for문의 조건식
 //		: (int 초기화 = 0; 초기화 < 배열의.길이; 초기화++)
 		
-		// 배열의 첫 번재 요소부터 마지막 요소까지의 수 만큼 반복
-		// 마지막 요소의 인덱스 = 배열의 길이 - 1
+//		배열의 첫 번재 요소부터 마지막 요소까지의 수 만큼 반복
+//		마지막 요소의 인덱스 = 배열의 길이 -1
 		System.out.println("for문을 사용한 배열의 순회");
 		
 		int length = fruits.length; // 속도가 빨라짐**
@@ -114,6 +114,7 @@ public class A_Array01 {
 			System.out.println(fruits[i]);
 		}
 		
+		// 각 요소(숫자)의 제곱
 		System.out.println("for문을 사용한 배열의 순회2");
 		int[] numbers = {1, 2, 3, 4, 5};
 		int numbersLength = numbers.length;
@@ -126,7 +127,7 @@ public class A_Array01 {
 //		<배열의 모든 요소를 단순 순회>
 //		: 향상된 for문(for-each문)
 //		for (데이터타입 변수명: 해당 데이터 타입의 배열명) {
-//			// 배열의 모든 요소에 접근하는 코드
+//			배열의 모든 요소에 접근하는 코드
 //		}
 		
 		int[] arrayNumber = {1, 3, 5, 7, 9};
@@ -138,6 +139,7 @@ public class A_Array01 {
 		for (char greetChar: arrayChar) {
 			System.out.println(greetChar);
 		}
+		
 		
 //		for-each문
 //		: 배열의 모든 요소에 대해 반복
@@ -161,14 +163,13 @@ public class A_Array01 {
 				found = true;
 				break;
 			}
-		}
-		
+		}		
 		if (found) {
 			System.out.println("데이터를 찾았습니다.");
 		} else {
 			System.out.println("데이터가 존재하지 않습니다.");
 		}
-		
+	
 //		요소 삭제
 //		: 삭제의 기능을 담당하는 키워드 X
 //		: 요소를 삭제하려면 삭제할 요소를 제외한 나머지 요소들을 새로운 배열로 복사

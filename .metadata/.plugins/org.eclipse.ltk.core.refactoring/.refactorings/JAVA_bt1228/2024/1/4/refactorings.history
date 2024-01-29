@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;g_Chapter06.Overriding01.java&apos; to &apos;Overloading01.java&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_bt1228&apos;&#x0D;&#x0A;- Original element: &apos;g_Chapter06.Overriding01.java&apos;&#x0D;&#x0A;- Renamed element: &apos;g_Chapter06.Overloading01.java&apos;" description="Rename compilation unit &apos;Overriding01.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;g_Chapter06{Overriding01.java" name="Overloading01.java" references="false" stamp="1706376049697" version="1.0"/>
+</session>
